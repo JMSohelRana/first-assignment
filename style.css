@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.mission {
+  display: flex;
+  margin-bottom: 50px;
+}
+.intro {
+  width: 405;
+  margin-left: 5%;
+}
+.intro img {
+  width: 70%;
+}
+h1 {
+  font-size: 40px;
+}
+.orange {
+  color: orange;
+}
+.click-button {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 7%;
+  font-weight: 700;
+}
+.space {
+  margin-bottom: 4%;
+}
+.space-between {
+  margin-top: 6%;
+}
