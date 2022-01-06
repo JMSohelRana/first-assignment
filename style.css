@@ -6,10 +6,12 @@ body {
 .mission {
   display: flex;
   margin-bottom: 50px;
+  padding: 3%;
 }
 .intro {
   width: 405;
   margin-left: 5%;
+  margin-right: 5%;
 }
 .intro img {
   width: 70%;
@@ -33,4 +35,74 @@ h1 {
 }
 .space-between {
   margin-top: 6%;
+}
+#mid {
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.child1 {
+  width: 390px;
+  height: 390px;
+  padding: 20px;
+  background-color: azure;
+  margin-right: 20px;
+  border-radius: 10%;
+}
+.child1 img {
+  width: 30%;
+}
+.child2 {
+  width: 390px;
+  height: 390px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: blanchedalmond;
+  border-radius: 10%;
+}
+.child2 img {
+  width: 30%;
+}
+.child3 {
+  width: 390px;
+  height: 390px;
+  padding: 20px;
+  background-color: cadetblue;
+  border-radius: 10%;
+}
+.child3 img {
+  width: 30%;
+}
+.side-image {
+  background-image: url(./images/shapes/dream-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+}
+.end-part {
+  border-top: 20%;
+  border-bottom: 20%;
+}
+footer h2 {
+  font-size: 35px;
+  color: white;
+  padding-top: 25px;
+}
+.end-color {
+  color: rgb(192, 32, 32);
+}
+#end-font {
+  font-family: "Dancing Script", cursive;
+}
+footer p {
+  color: antiquewhite;
+  padding-bottom: 25px;
 }
