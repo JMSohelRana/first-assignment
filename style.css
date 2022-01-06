@@ -9,15 +9,22 @@ body {
   padding: 3%;
 }
 .intro {
-  width: 405;
   margin-left: 5%;
   margin-right: 5%;
 }
 .intro img {
   width: 70%;
 }
+#web-dev-exp {
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
 h1 {
-  font-size: 40px;
+  font-size: 45px;
+}
+.empty-space {
+  margin-left: 10px;
 }
 .orange {
   color: orange;
@@ -80,6 +87,19 @@ h1 {
 .side-image {
   background-image: url(./images/shapes/dream-bg.png);
   background-position: left;
+  background-repeat: no-repeat;
+}
+
+.ongoing-mission {
+  display: flex;
+  margin-bottom: 50px;
+}
+.bc {
+  background-image: url(./images/shapes/shape-1.png);
+
+  background-position: right;
+  background-size: 20%;
+
   background-repeat: no-repeat;
 }
 
