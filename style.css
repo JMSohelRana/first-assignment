@@ -66,7 +66,7 @@ h1 {
   width: 390px;
   height: 390px;
   padding: 20px;
-  background-color: azure;
+  background-color: rgb(154, 202, 202);
   margin-right: 20px;
   border-radius: 10%;
 }
@@ -78,7 +78,7 @@ h1 {
   height: 390px;
   padding: 20px;
   margin-right: 20px;
-  background-color: blanchedalmond;
+  background-color: rgb(214, 185, 141);
   border-radius: 10%;
 }
 .child2 img {
